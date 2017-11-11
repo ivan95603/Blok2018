@@ -15,10 +15,36 @@ public class Main {
         System.out.println(c);
         System.out.println(d);
 
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 3; i++)
         {
-            System.out.println("Ovo je jedna linija");
+            System.out.println("Ovo je linija sa indeksom: " + i);
         }
+
+
+
+
+
+
+        int arr[]={2,11,45,9};
+        //i pocinje sa 0 posto indeksi pocinju od 0
+        for(int i=0; i<arr.length; i++)
+        {
+            System.out.println(arr[i]);
+        }
+
+
+        ArrayList<String> items = new ArrayList<>();
+        items.add("A");
+        items.add("B");
+        items.add("C");
+        items.add("D");
+        items.add("E");
+
+        for(String item : items)
+        {
+            System.out.println(item);
+        }
+
 
 
         Student marko = new Student();
