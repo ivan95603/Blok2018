@@ -20,8 +20,18 @@ public class Main {
             System.out.println("Ovo je linija sa indeksom: " + i);
         }
 
+        Student Marko = new Student();
+        Student Janko = new Student("Janko", 1999, 4.3);
 
+        ArrayList<Student> studenti = new ArrayList<>();
+        studenti.add(new Student("Marko", 1997, 5.0));
+        studenti.add(new Student("Janko", 1997, 4.0));
+        studenti.add(new Student("Marija", 1997, 4.9));
 
+        for (Student item : studenti)
+        {
+            System.out.println(item.ime);
+        }
 
 
 
