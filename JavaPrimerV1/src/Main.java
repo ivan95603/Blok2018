@@ -42,6 +42,10 @@ public class Main {
             System.out.println(arr[i]);
         }
 
+        for(int i = 4; i < 4; i++)
+            System.out.println(i);
+
+
 
         ArrayList<String> items = new ArrayList<>();
         items.add("A");
